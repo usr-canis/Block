@@ -1,1 +1,12 @@
-foo
+.gradle/
+local.properties
+**/build/
+*.iml
+.idea/
+captures/
+*.apk
+*.aab
+*.jks
+*.keystore
+secrets.properties
+.signing/
