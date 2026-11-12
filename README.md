@@ -28,7 +28,7 @@ Install the debug APK at `app/build/outputs/apk/debug/app-debug.apk`. The releas
 
 ## Install and test on a phone
 
-Install `Roadscope-1.0.0.apk` from the [GitHub Releases page](https://github.com/usr-canis/Block/releases). Grant location only if you want phone GPS fields. Denying location does not prevent motion sensors from working. Leave the app open during collection; the current build intentionally stops sampling when it is backgrounded. Use the matrix to see what was actually observed on the phone.
+Download the [Roadscope 1.0.0 APK](release/v1.0.0/Roadscope-1.0.0.apk) and verify it with [`SHA256SUMS.txt`](release/v1.0.0/SHA256SUMS.txt). Grant location only if you want phone GPS fields. Denying location does not prevent motion sensors from working. Leave the app open during collection; the current build intentionally stops sampling when it is backgrounded. Use the matrix to see what was actually observed on the phone.
 
 For Android Auto checks, first test with no head unit, then USB and wireless while parked. Roadscope should continue to report the Android Auto session as not observable and should not interfere with it. A protocol experiment requires control of a compatible head unit or an authorized capture and is outside this phone-only release.
 
